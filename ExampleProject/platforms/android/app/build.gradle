@@ -42,7 +42,7 @@ allprojects {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.1.0'
+    gradleVersion = '5.1.1'
 }
 
 // Configuration properties. Set these via environment variables, build-extras.gradle, or gradle.properties.
@@ -277,6 +277,13 @@ dependencies {
 	compile 'com.google.android.gms:play-services-location:16.0.0'
 	//compile 'com.google.firebase:firebase-appindexing:18.0.0'
 	compile 'com.google.android.gms:play-services-gcm:16.0.0'
+}
+
+configurations.all {
+  resolutionStrategy {
+      force 'com.google.firebase:firebase-messaging:15.0.2'
+      force 'com.google.android.gms:play-services-base:16.1.0'
+  }
 }
 
 def promptForReleaseKeyPassword() {
