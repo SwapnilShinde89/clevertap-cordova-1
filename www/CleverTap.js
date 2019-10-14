@@ -100,7 +100,7 @@ CleverTap.prototype.recordScreenView = function (screenName) {
 // Record Event with Name
 // eventName = string
 CleverTap.prototype.recordEventWithName = function (eventName) {
-	alert("testing");
+	return "testing";
     cordova.exec(null, null, "CleverTapPlugin", "recordEventWithName", [eventName]);
 }
                
