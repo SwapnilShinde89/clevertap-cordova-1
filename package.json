@@ -32,6 +32,5 @@
   },
   "homepage": "https://github.com/CleverTap/clevertap-cordova#readme",
   "dependencies": {
-    "xcode": "^2.0.0"
   }
 }
