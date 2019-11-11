@@ -4,8 +4,8 @@
 
 'use strict';
 
-const xcode = require('xcode'),
-    fs = require('fs'),
+const  fs = require('fs'),
+      xcode = require('xcode'),
     path = require('path');
 
 module.exports = function(context) {
