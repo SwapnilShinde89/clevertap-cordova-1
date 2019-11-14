@@ -61,7 +61,7 @@
         <framework src="CoreTelephony.framework" />
         <framework src="UIKit.framework" />
         <framework src="CoreLocation.framework" />
-        <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
+       
         <hook type="after_plugin_add" src="scripts/iosAfterPluginAdd.js" />
 	
 
