@@ -5,7 +5,8 @@
 
     <license>Commercial</license>
     <keywords>CleverTap</keywords>
-    <dependency id="cordova-plugin-add-swift-support@1.7.2"/>
+    
+    
     <js-module src="www/CleverTap.js" name="CleverTap">
         <clobbers target="CleverTap" />
     </js-module>
@@ -19,7 +20,7 @@
     <preference name="CLEVERTAP_REGION" default=" "/>
 
     <platform name="ios">
-	   
+	   <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
 		<config-file>
 			<access origin="*.wzrkt.com" />
 		</config-file>
